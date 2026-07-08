@@ -1,0 +1,1015 @@
+<!DOCTYPE html>
+<html lang="vi-VN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Nghệ Thuật Chớp Thời Cơ — Đảng Trong Tim</title>
+
+  <link rel='dns-prefetch' href='//fonts.googleapis.com' />
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C300%2C400italic%2C600%2C700%2C700italic%2C800%7CMerriweather%3A400%2C400italic%2C700%2C700italic%7CLora%3A400%2C400italic%2C700%2C700italic%7CPoppins%3A300%2C400%2C500%2C600%2C700&subset=latin%2Clatin-ext' media='all' />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,400;1,700&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+
+  <link rel='stylesheet' href='https://trungnguyenlegend.com/wp-content/themes/legend/css/master-min.php?ver=7.0' media='all' />
+  <link rel='stylesheet' href='https://trungnguyenlegend.com/wp-content/themes/legend_child_theme/style.css?ver=7.0' media='all' />
+  <link rel='stylesheet' href='https://trungnguyenlegend.com/wp-content/themes/legend_child_theme/style-va.css?ver=7.0' media='all' />
+  <link rel='stylesheet' href='https://trungnguyenlegend.com/wp-content/themes/legend_child_theme/main_css/main.css?ver=7.0' media='all' />
+  <link rel='stylesheet' href='https://trungnguyenlegend.com/wp-content/themes/legend_child_theme/main_css/addon-min.css?ver=7.0' media='all' />
+  <link rel='stylesheet' href='https://trungnguyenlegend.com/wp-content/themes/legend_child_theme/reponsive.css?ver=7.0' media='all' />
+  <link rel='stylesheet' href='https://trungnguyenlegend.com/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=8.7.3' media='all' />
+  <link rel='stylesheet' href='https://trungnguyenlegend.com/wp-content/plugins/js_composer/assets/lib/vendor/dist/animate.css/animate.min.css?ver=8.7.3' media='all' />
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' media='all' />
+
+  <script src="https://trungnguyenlegend.com/wp-includes/js/jquery/jquery.js?ver=3.7.1"></script>
+  <script src="https://trungnguyenlegend.com/wp-includes/js/jquery/jquery-migrate.js?ver=3.4.1"></script>
+
+  <style type="text/css" media="screen">body{ }</style>
+  <style id="wp-custom-css">
+  .icon-box14 h4 { padding: 0 28px; }
+  .icon-box14 { background: #070707; }
+  </style>
+  <style type="text/css" title="dynamic-css" class="options-output">
+  #wrap #footer{background-color:#222429;}
+  #wrap #footer .footbot{background-color:#000000;}
+  body{background-color:#f2efe8;}
+  #wrap a.magicmore{color:#dd9933;}
+  </style>
+  <style type="text/css" data-type="vc_shortcodes-custom-css">
+  .vc_custom_1522171317685{margin-bottom: 0px !important;}
+  </style>
+  <noscript><style>.wpb_animate_when_almost_visible{opacity:1;}</style></noscript>
+  <style>.wpb_animate_when_almost_visible{opacity:0;}.wpb_animate_when_almost_visible.animated{opacity:1;}</style>
+
+  <style>
+  /* ─── Bảng màu đồng bộ toàn site ─── */
+  :root {
+    --red:   #DA251D;
+    --gold:  #FFCD00;
+    --cream: #F2ECD8;
+    --dark:  #111009;
+    --dark2: #1a1810;
+    --dark3: #0d0c08;
+  }
+
+  /* ══════════════════════
+     EDITION BAR
+  ══════════════════════ */
+  .edition-bar {
+    background: var(--gold);
+    padding: 0.6rem 6vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .edition-bar span {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.6rem;
+    font-weight: 700;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: rgba(17,16,9,0.85);
+  }
+
+  /* ══════════════════════
+     MAIN CONTENT WRAP
+  ══════════════════════ */
+  .content-wrap {
+    background: var(--dark);
+    padding-bottom: 6rem;
+  }
+
+  /* ══════════════════════
+     TRIẾT LÝ INTRO — 3 trụ cột
+  ══════════════════════ */
+  .pillars-section {
+    padding: 5rem 6vw 4rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .section-eyebrow {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.58rem;
+    font-weight: 700;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+    color: var(--gold);
+    border-left: 3px solid var(--gold);
+    padding-left: 0.8rem;
+    margin-bottom: 2rem;
+    display: block;
+  }
+  .pillars-headline {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: clamp(1.8rem, 3.5vw, 2.8rem);
+    font-weight: 900;
+    color: var(--cream);
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    max-width: 760px;
+  }
+  .pillars-headline em { color: var(--gold); font-style: italic; }
+  .pillars-intro-text {
+    font-family: 'EB Garamond', Georgia, serif;
+    font-size: 1.1rem;
+    font-style: italic;
+    color: rgba(242,236,216,0.55);
+    line-height: 1.7;
+    max-width: 700px;
+    margin-bottom: 3.5rem;
+    padding-bottom: 2.5rem;
+    border-bottom: 1px solid rgba(255,205,0,0.12);
+  }
+  .pillars-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1px;
+    background: rgba(255,205,0,0.08);
+    border-radius: 6px;
+    overflow: hidden;
+  }
+  @media(max-width:800px){ .pillars-grid { grid-template-columns: 1fr; } }
+  .pillar-card {
+    background: var(--dark);
+    padding: 2.5rem 2rem;
+    position: relative;
+    transition: background 0.3s, transform 0.3s;
+  }
+  .pillar-card:hover { background: rgba(255,205,0,0.03); transform: translateY(-3px); }
+  .pillar-num {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 4rem;
+    font-weight: 900;
+    color: rgba(255,205,0,0.07);
+    line-height: 1;
+    margin-bottom: 1rem;
+  }
+  .pillar-icon {
+    font-size: 1.8rem;
+    margin-bottom: 1.2rem;
+    display: block;
+  }
+  .pillar-title {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: var(--gold);
+    margin-bottom: 1rem;
+    line-height: 1.2;
+  }
+  .pillar-body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.88rem;
+    color: rgba(242,236,216,0.65);
+    line-height: 1.9;
+  }
+  .pillar-rule {
+    width: 32px;
+    height: 2px;
+    background: var(--gold);
+    opacity: 0.4;
+    margin: 1.4rem 0;
+  }
+
+  /* ══════════════════════
+     THỜI CƠ — Điều kiện hội tụ
+  ══════════════════════ */
+  .heritage-section {
+    padding: 0 6vw 5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .section-rule {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 4rem 0;
+  }
+  .section-rule::before, .section-rule::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: rgba(255,205,0,0.12);
+  }
+  .section-rule-diamond {
+    width: 6px; height: 6px;
+    background: var(--gold);
+    transform: rotate(45deg);
+    opacity: 0.5;
+  }
+  .heritage-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2px;
+    background: rgba(255,205,0,0.06);
+    margin-top: 2.5rem;
+    border-radius: 6px;
+    overflow: hidden;
+  }
+  @media(max-width:700px){ .heritage-grid { grid-template-columns: 1fr; } }
+  .heritage-item {
+    background: var(--dark);
+    padding: 2.2rem;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s;
+  }
+  .heritage-item:hover { transform: translateY(-3px); }
+  .heritage-item::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 3px;
+    height: 100%;
+    background: linear-gradient(to bottom, var(--gold), transparent);
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  .heritage-item:hover::before { opacity: 1; }
+  .heritage-year {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: rgba(255,205,0,0.15);
+    line-height: 1;
+    margin-bottom: 0.8rem;
+  }
+  .heritage-title {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--cream);
+    margin-bottom: 0.8rem;
+    line-height: 1.3;
+  }
+  .heritage-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.83rem;
+    color: rgba(242,236,216,0.55);
+    line-height: 1.85;
+  }
+  .heritage-badge {
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.55rem;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--gold);
+    border: 1px solid rgba(255,205,0,0.25);
+    padding: 0.25rem 0.6rem;
+    border-radius: 2px;
+    margin-bottom: 1rem;
+  }
+
+  /* ══════════════════════
+     TỔNG KHỞI NGHĨA — Stats + dòng thời gian
+  ══════════════════════ */
+  .achievements-section {
+    background: rgba(255,205,0,0.03);
+    border-top: 1px solid rgba(255,205,0,0.08);
+    border-bottom: 1px solid rgba(255,205,0,0.08);
+    padding: 5rem 6vw;
+  }
+  .achievements-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0;
+    margin-top: 3rem;
+    border: 1px solid rgba(255,205,0,0.1);
+    border-radius: 6px;
+    overflow: hidden;
+  }
+  @media(max-width:800px){ .stats-grid { grid-template-columns: 1fr 1fr; } }
+  @media(max-width:500px){ .stats-grid { grid-template-columns: 1fr; } }
+  .stat-cell {
+    padding: 2.5rem 2rem;
+    border-right: 1px solid rgba(255,205,0,0.08);
+    text-align: center;
+    position: relative;
+  }
+  .stat-cell:last-child { border-right: none; }
+  .stat-val {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: clamp(2rem, 4vw, 3.2rem);
+    font-weight: 900;
+    color: var(--gold);
+    line-height: 1;
+    margin-bottom: 0.5rem;
+  }
+  .stat-lbl {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.62rem;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: rgba(242,236,216,0.4);
+    line-height: 1.4;
+  }
+
+  /* Dòng thời gian tổng khởi nghĩa */
+  .achievement-list {
+    margin-top: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    background: rgba(255,205,0,0.06);
+    border-radius: 6px;
+    overflow: hidden;
+  }
+  .achievement-row {
+    display: grid;
+    grid-template-columns: 120px 1fr auto;
+    gap: 2rem;
+    align-items: center;
+    background: var(--dark);
+    padding: 1.6rem 2rem;
+    transition: background 0.2s;
+  }
+  @media(max-width:700px){
+    .achievement-row { grid-template-columns: 80px 1fr; gap: 1rem; }
+    .achievement-tag { display: none; }
+  }
+  .achievement-row:hover { background: rgba(255,205,0,0.03); }
+  .achievement-date {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: rgba(255,205,0,0.4);
+    line-height: 1.2;
+  }
+  .achievement-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.88rem;
+    font-weight: 700;
+    color: var(--cream);
+    margin-bottom: 0.25rem;
+  }
+  .achievement-desc {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.78rem;
+    color: rgba(242,236,216,0.45);
+    line-height: 1.5;
+  }
+  .achievement-tag {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.55rem;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: rgba(255,205,0,0.6);
+    border: 1px solid rgba(255,205,0,0.15);
+    padding: 0.3rem 0.7rem;
+    border-radius: 2px;
+    white-space: nowrap;
+  }
+
+  /* ══════════════════════
+     CHỈ ĐẠO — Editorial ngang
+  ══════════════════════ */
+  .landmarks-section {
+    padding: 5rem 6vw;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .landmarks-grid {
+    display: grid;
+    grid-template-columns: 1fr 380px;
+    gap: 4rem;
+    margin-top: 3rem;
+  }
+  @media(max-width:900px){ .landmarks-grid { grid-template-columns: 1fr; gap: 3rem; } }
+
+  .landmark-main {}
+
+  .landmark-text p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.92rem;
+    line-height: 2;
+    color: rgba(242,236,216,0.7);
+    margin-bottom: 1.4rem;
+  }
+  .landmark-text p strong { color: var(--cream); font-weight: 600; }
+  .landmark-text p:first-child::first-letter {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 4.2rem;
+    font-weight: 900;
+    color: var(--gold);
+    float: left;
+    line-height: 0.75;
+    margin: 0.1em 0.1em 0 0;
+  }
+
+  .landmark-pullquote {
+    border-top: 2px solid var(--gold);
+    border-bottom: 2px solid var(--gold);
+    margin: 2.5rem 0;
+    padding: 1.8rem 0;
+    text-align: center;
+  }
+  .landmark-pullquote p {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 1.35rem;
+    font-style: italic;
+    font-weight: 700;
+    color: var(--gold);
+    line-height: 1.5;
+    margin: 0 !important;
+  }
+
+  /* Sidebar */
+  .landmark-sidebar {
+    border-left: 1px solid rgba(255,205,0,0.1);
+    padding-left: 3rem;
+  }
+  @media(max-width:900px){ .landmark-sidebar { border-left: none; border-top: 1px solid rgba(255,205,0,0.1); padding-left: 0; padding-top: 3rem; } }
+
+  .sb-card {
+    background: rgba(255,205,0,0.04);
+    border: 1px solid rgba(255,205,0,0.12);
+    border-radius: 4px;
+    padding: 1.8rem 1.5rem;
+    margin-bottom: 2rem;
+  }
+  .sb-card-label {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.55rem;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+    color: rgba(255,205,0,0.45);
+    margin-bottom: 1.2rem;
+    padding-bottom: 0.8rem;
+    border-bottom: 1px solid rgba(255,205,0,0.08);
+  }
+  .sb-group-name {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 1.6rem;
+    font-weight: 900;
+    font-style: italic;
+    color: var(--gold);
+    margin-bottom: 0.3rem;
+    line-height: 1.2;
+  }
+  .sb-group-name span {
+    display: block;
+    font-style: normal;
+    font-size: 0.6rem;
+    letter-spacing: 0.2em;
+    color: rgba(255,205,0,0.4);
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    margin-bottom: 0.4rem;
+  }
+  .sb-meta { margin-top: 1.2rem; display: flex; flex-direction: column; gap: 0.6rem; }
+  .sb-meta-row { display: flex; gap: 0.7rem; font-family: 'Open Sans', sans-serif; font-size: 0.75rem; align-items: baseline; }
+  .sb-meta-key { color: rgba(255,205,0,0.4); font-size: 0.58rem; letter-spacing: 0.15em; text-transform: uppercase; min-width: 90px; flex-shrink: 0; }
+  .sb-meta-val { color: rgba(242,236,216,0.65); line-height: 1.4; }
+
+  .sb-values { margin-bottom: 2rem; }
+  .sb-values-title { font-family: 'Open Sans', sans-serif; font-size: 0.55rem; letter-spacing: 0.4em; text-transform: uppercase; color: rgba(255,205,0,0.45); margin-bottom: 1rem; }
+  .sb-value-item { display: flex; align-items: flex-start; gap: 1rem; padding: 1rem 0; border-bottom: 1px solid rgba(255,255,255,0.04); }
+  .sb-value-item:last-child { border-bottom: none; }
+  .sb-value-num { font-family: 'Playfair Display', Georgia, serif; font-size: 1.8rem; font-weight: 900; color: rgba(232,200,106,0.25); line-height: 1; flex-shrink: 0; width: 36px; text-align: center; }
+  .sb-value-name { font-family: 'Open Sans', sans-serif; font-size: 0.7rem; font-weight: 700; color: var(--cream); margin-bottom: 0.3rem; }
+  .sb-value-desc { font-family: 'Open Sans', sans-serif; font-size: 0.75rem; color: rgba(242,236,216,0.45); line-height: 1.6; }
+
+  /* ══════════════════════
+     CLOSING QUOTE
+  ══════════════════════ */
+  .closing-quote {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 6vw 2rem;
+    text-align: center;
+  }
+  .closing-quote blockquote {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: clamp(1.4rem, 3vw, 2.1rem);
+    font-style: italic;
+    font-weight: 700;
+    color: var(--cream);
+    line-height: 1.5;
+    margin: 0 0 1.2rem;
+  }
+  .closing-quote blockquote em { color: var(--gold); }
+  .closing-quote cite {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.6rem;
+    letter-spacing: 0.35em;
+    text-transform: uppercase;
+    color: rgba(255,205,0,0.4);
+  }
+
+  </style>
+
+<style id="chatgpt-modern-redesign">
+:root{
+ --red:#E8C86A;
+ --gold:#D4AF37;
+ --cream:#333333;
+ --dark:#f2efe8;
+ --dark2:#f2efe8;
+ --dark3:#ece7db;
+}
+.content-wrap{background:#f2efe8!important;}
+.edition-bar{background:var(--gold)!important;}
+.edition-bar span{color:rgba(255,255,255,0.9)!important;}
+
+.pillars-intro-text{color:#666!important;border-bottom:1px solid #eee!important;}
+.pillars-grid{background:#eee!important;box-shadow:0 8px 24px rgba(0,0,0,.04)!important;}
+.pillar-card:hover{background:#ece7db!important;}
+.pillar-num{color:rgba(212,175,55,0.15)!important;}
+.pillar-body{color:#666!important;}
+
+.heritage-grid{background:#eee!important;box-shadow:0 8px 24px rgba(0,0,0,.04)!important;}
+.heritage-year{color:rgba(212,175,55,0.28)!important;}
+.heritage-text{color:#666!important;}
+.heritage-badge{border-color:rgba(212,175,55,0.4)!important;}
+.heritage-item:hover{box-shadow:0 10px 24px rgba(0,0,0,.06)!important;}
+
+.achievements-section{background:#ece7db!important;border-top:1px solid #eee!important;border-bottom:1px solid #eee!important;}
+.stats-grid{border-color:#eee!important;box-shadow:0 8px 24px rgba(0,0,0,.04)!important;}
+.stat-cell{border-right-color:#eee!important;}
+.stat-lbl{color:#999!important;}
+.achievement-list{background:#eee!important;box-shadow:0 8px 24px rgba(0,0,0,.04)!important;}
+.achievement-row:hover{background:#ece7db!important;}
+.achievement-date{color:#B8912F!important;}
+.achievement-desc{color:#666!important;}
+.achievement-tag{color:#B8912F!important;border-color:rgba(212,175,55,0.3)!important;}
+
+.landmark-text p{color:#555!important;}
+.landmark-sidebar{border-left-color:#eee!important;}
+@media(max-width:900px){ .landmark-sidebar{border-top-color:#eee!important;} }
+.sb-card{background:#f2efe8!important;border:1px solid #e8e8e8!important;box-shadow:0 10px 30px rgba(0,0,0,.06)!important;}
+.sb-card-label{color:#E8C86A!important;border-bottom-color:#eee!important;}
+.sb-meta-key{color:#E8C86A!important;}
+.sb-meta-val{color:#666!important;}
+.sb-values-title{color:#E8C86A!important;}
+.sb-value-num{color:rgba(212,175,55,0.3)!important;}
+.sb-value-desc{color:#666!important;}
+
+.closing-quote{background:#ece7db!important;border-top:1px solid #eee!important;border-bottom:1px solid #eee!important;}
+.closing-quote blockquote{color:#222!important;}
+.closing-quote cite{color:#E8C86A!important;}
+.section-rule::before,.section-rule::after{background:#ddd!important;}
+</style>
+
+<style id="readability-contrast-fix">
+/* ─── Sửa các chữ bị mờ / khó đọc: nền đã đổi sang sáng nhưng nhiều chữ vẫn để màu vàng/kem trong suốt kiểu nền tối cũ, khiến gần như vô hình trên nền sáng ─── */
+.edition-bar span{color:rgba(30,26,10,0.82)!important;}
+.heritage-badge{color:#B8912F!important;}
+.stat-lbl{color:#777!important;}
+.landmark-pullquote p{color:#B8912F!important;}
+.landmark-text p:first-child::first-letter{color:#B8912F!important;}
+.sb-card-label{color:#B8912F!important;}
+.sb-group-name{color:#B8912F!important;}
+.sb-group-name span{color:#B8912F!important;}
+.sb-meta-key{color:#B8912F!important;}
+.sb-values-title{color:#B8912F!important;}
+.sb-value-num{color:rgba(184,145,47,0.35)!important;}
+.closing-quote cite{color:#B8912F!important;}
+.closing-quote blockquote em{color:#B8912F!important;}
+.heritage-year{color:rgba(184,145,47,0.22)!important;}
+.theory-text p{color:#555!important;}
+.theory-text p strong{color:#222!important;}
+</style>
+</head>
+
+<body class="wp-singular page-template-default page transparent-header-w t-dark-w smooth-scroll wpb-js-composer js-comp-ver-8.7.3 vc_responsive" data-scrolls-value="380">
+<div id="wrap" class="colorskin-custom">
+
+  <!-- Banner top desktop -->
+  <section class="wpb_row not-for-mobile w-animate full-row">
+    <div class="page-slide mar-bot--95 wpb_column vc_column_container vc_col-sm-12">
+      <div class="vc_column-inner"><div class="wpb_wrapper">
+        <div class="wpb_single_image wpb_content_element vc_align_center wpb_content_element full-img">
+          <figure class="wpb_wrapper vc_figure">
+            <div class="vc_single_image-wrapper vc_box_border_grey">
+              <img fetchpriority="high" decoding="async" width="1920" height="240"
+                src="image/Footer.png"
+                class="vc_single_image-img attachment-full" alt="" title="footer" />
+            </div>
+          </figure>
+        </div>
+      </div></div>
+    </div>
+  </section>
+
+  <!-- HEADER -->
+  <header>
+    <div class="container">
+      <div class="col-left">
+        <div class="btn-showmenu-wrap">
+          <div class="btn-showmenu"><span></span></div>
+        </div>
+        <nav class="menu">
+          <div class="btn-showmenu-wrap">
+            <div class="btn-showmenu-menu"><span></span></div>
+          </div>
+          <ul id="nav">
+            <li class="menu-item menu-item-has-children">
+              <a href="#">về chúng tôi</a>
+              <ul class="sub-menu">
+                <li class="menu-item"><a href="about.html">THÔNG ĐIỆP NHÀ SÁNG LẬP</a></li>
+                <li class="menu-item"><a href="DCSVN.html">DI SẢN – THÀNH TỰU<br>– DẤU ẤN</a></li>
+                <li class="menu-item"><a href="LSD.html">LỊCH SỬ ĐẢNG</a></li>
+              </ul>
+            </li>
+            <li class="menu-item"><a href="VNDM.html">VIỆT NAM ĐỔI MỚI</a></li>
+            <li class="menu-item current-menu-item"><a href="NT.html">NGHỆ THUẬT CHỚP THỜI CƠ</a></li>
+          </ul>
+          <div class="social">
+            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+          </div>
+        </nav>
+      </div>
+      <div class="sitelogo" style="display:none;">
+        <a href="#"><img src="image/1930.png" width="180" alt="Logo"></a>
+      </div>
+      <div class="col-right">
+        <div class="language">
+          <div class="widget">
+            <div class="wpml-ls-legacy-list-horizontal">
+              <ul>
+                <li class="wpml-ls-current-language"><a href="#" class="wpml-ls-link"><span class="wpml-ls-native">Tiếng Việt</span></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- end-header -->
+
+  <section id="main-content" class="container"><div class="row-wrapper-x"><p></div></section>
+  <section class="container"><div class="row-wrapper-x"></div></section>
+
+  <!-- Mobile banner -->
+  <section class="wpb_row for-mobile-only w-animate full-row">
+    <div class="page-slide mar-bot--95 wpb_column vc_column_container vc_col-sm-12">
+      <div class="vc_column-inner"><div class="wpb_wrapper">
+        <div class="wpb_single_image wpb_content_element vc_align_center wpb_content_element full-img">
+          <figure class="wpb_wrapper vc_figure">
+            <div class="vc_single_image-wrapper vc_box_border_grey">
+              <img decoding="async" width="600" height="394" src="image/footer-m.png" class="vc_single_image-img attachment-full" alt="" />
+            </div>
+          </figure>
+        </div>
+      </div></div>
+    </div>
+  </section>
+
+  <!-- SUB-MENU TABS -->
+  <section class="container">
+    <div class="row-wrapper-x">
+      <section class="wpb_row">
+        <div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+          <div class="wpb_raw_code wpb_raw_html wpb_content_element vc_custom_1522171317685">
+            <div class="wpb_wrapper">
+              <ul class="sub-menu-list">
+                <li id="thong_diep" class="sub-menu-item" role="tab">
+                  <a href="about.html">THÔNG ĐIỆP NHÀ SÁNG LẬP</a>
+                </li>
+                <li id="di_san" class="sub-menu-item" role="tab">
+                  <a href="DCSVN.html">DI SẢN – THÀNH TỰU – DẤU ẤN</a>
+                </li>
+                <li id="lich_su" class="sub-menu-item" role="tab">
+                  <a href="LSD.html">LỊCH SỬ ĐẢNG</a>
+                </li>
+                <li id="vndm" class="sub-menu-item" role="tab">
+                  <a href="VNDM.html">VIỆT NAM ĐỔI MỚI</a>
+                </li>
+                <li id="nt" class="sub-menu-item sub-menu-item-active" role="tab">
+                  <a href="NT.html">NGHỆ THUẬT CHỚP THỜI CƠ</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div></div></div>
+      </section>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════
+       NỘI DUNG NGHỆ THUẬT CHỚP THỜI CƠ
+  ═══════════════════════════════════ -->
+  <div class="content-wrap">
+
+    <div class="edition-bar">
+      <span>Về Chúng Tôi · Nghệ Thuật Chớp Thời Cơ</span>
+      <span>★ ★ ★</span>
+      <span>Cách Mạng Tháng Tám 1945</span>
+    </div>
+
+    <!-- ═══ BA TRỤ CỘT ═══ -->
+    <div class="pillars-section wpb_animate_when_almost_visible">
+      <span class="section-eyebrow">Nghệ Thuật Chớp Thời Cơ</span>
+      <h2 class="pillars-headline">Nghệ thuật nắm bắt <em>thời cơ ngàn năm có một</em><br>trong Cách mạng Tháng Tám năm 1945</h2>
+      <p class="pillars-intro-text">
+        Không một cuộc cách mạng nào thành công chỉ nhờ lòng nhiệt huyết. Cách mạng Tháng Tám năm 1945 là minh chứng sống động cho một chân lý: giữa muôn vàn biến động của lịch sử, chỉ những ai nhận ra đúng thời khắc — và dám hành động dứt khoát trong thời khắc ấy — mới có thể làm nên những bước ngoặt vĩ đại. Nhóm học tập <strong>Đảng Trong Tim</strong> tìm về mùa thu năm 1945 để giải mã một trong những nhân tố quyết định thắng lợi: nghệ thuật chớp thời cơ kịp thời, chính xác của Đảng và Chủ tịch Hồ Chí Minh.
+      </p>
+      <div class="pillars-grid">
+        <div class="pillar-card">
+          <div class="pillar-num">01</div>
+          <span class="pillar-icon">🔎</span>
+          <div class="pillar-rule"></div>
+          <div class="pillar-title">Nhận Định Đúng Thời Cơ</div>
+          <div class="pillar-body">Đảng phân tích chính xác cục diện thế giới và trong nước, chỉ ra thời điểm hội tụ đủ bốn điều kiện thuận lợi để phát động tổng khởi nghĩa — khi kẻ thù đã suy yếu, chính quyền tay sai tan rã, quân Đồng minh chưa kịp can thiệp và quần chúng đã sẵn sàng vùng dậy.</div>
+        </div>
+        <div class="pillar-card">
+          <div class="pillar-num">02</div>
+          <span class="pillar-icon">⏱️</span>
+          <div class="pillar-rule"></div>
+          <div class="pillar-title">Quyết Định Đúng Lúc</div>
+          <div class="pillar-body">Chỉ trong vòng 20 ngày ngắn ngủi — từ khi Nhật đầu hàng đến khi quân Đồng minh tiến vào Đông Dương — Đảng đã quyết đoán phát động Tổng khởi nghĩa, không để cơ hội "ngàn năm có một" vụt qua mà cũng không nóng vội khi lực lượng chưa chín muồi.</div>
+        </div>
+        <div class="pillar-card">
+          <div class="pillar-num">03</div>
+          <span class="pillar-icon">⚡</span>
+          <div class="pillar-rule"></div>
+          <div class="pillar-title">Chỉ Đạo Linh Hoạt, Táo Bạo</div>
+          <div class="pillar-body">Từ Tân Trào, mệnh lệnh khởi nghĩa lan tỏa thần tốc tới từng địa phương. Sự chỉ đạo quyết đoán, sát thực tiễn giúp chính quyền cách mạng được thiết lập trên phạm vi cả nước chỉ trong nửa tháng, gần như không đổ máu.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-rule" style="max-width:1200px;margin:0 auto;padding:0 6vw;">
+      <div class="section-rule-diamond"></div>
+    </div>
+
+    <!-- ═══ 1.1. CƠ SỞ LÝ LUẬN: KHÁI NIỆM THỜI CƠ CÁCH MẠNG ═══ -->
+    <div class="heritage-section wpb_animate_when_almost_visible">
+      <span class="section-eyebrow">1.1. Cơ Sở Lý Luận</span>
+      <h2 class="pillars-headline">Khái niệm <em>thời cơ cách mạng</em><br>và điều kiện để trở thành thắng lợi</h2>
+      <div class="landmark-text theory-text">
+        <p>Trong tiến trình cách mạng, <strong>thời cơ cách mạng</strong> là thời điểm xuất hiện những điều kiện thuận lợi cả về khách quan và chủ quan, tạo khả năng để lực lượng cách mạng giành thắng lợi. Thời cơ không tự nhiên xuất hiện mà là kết quả của sự vận động của tình hình trong nước, quốc tế và sự chuẩn bị lâu dài của lực lượng cách mạng.</p>
+        <p>Về phương diện khách quan, thời cơ cách mạng xuất hiện khi bộ máy thống trị của kẻ thù suy yếu, khủng hoảng hoặc mất khả năng kiểm soát xã hội, đồng thời tình hình quốc tế diễn biến theo hướng có lợi cho phong trào cách mạng. Về phương diện chủ quan, lực lượng cách mạng phải được chuẩn bị đầy đủ về <strong>đường lối chính trị, tổ chức lãnh đạo, lực lượng quần chúng và phương pháp đấu tranh</strong> để có thể tận dụng thời cơ khi nó xuất hiện.</p>
+        <p>Trong Cách mạng Tháng Tám năm 1945, thời cơ cách mạng xuất hiện khi phát xít Nhật đầu hàng Đồng minh, chính quyền tay sai thân Nhật ở Đông Dương rơi vào tình trạng hoang mang, tê liệt và mất khả năng cai trị. Tuy nhiên, thắng lợi của cách mạng không chỉ bắt nguồn từ những điều kiện khách quan thuận lợi mà còn là kết quả của quá trình Đảng Cộng sản Đông Dương chuẩn bị lực lượng chính trị, lực lượng vũ trang, xây dựng Mặt trận Việt Minh và phát động cao trào kháng Nhật cứu nước trong nhiều năm trước đó.</p>
+        <p>Thực tiễn Cách mạng Tháng Tám cho thấy thời cơ cách mạng luôn mang tính <strong>ngắn hạn</strong> và có thể qua đi rất nhanh. Vì vậy, việc nhận diện đúng thời cơ, chuẩn bị đầy đủ lực lượng và hành động kịp thời là yếu tố quyết định để biến thời cơ thành thắng lợi cách mạng. Đây cũng chính là cơ sở lý luận quan trọng để nghiên cứu nghệ thuật chớp thời cơ của Đảng trong Cách mạng Tháng Tám năm 1945.</p>
+      </div>
+    </div>
+
+    <div class="section-rule" style="max-width:1200px;margin:0 auto;padding:0 6vw;">
+      <div class="section-rule-diamond"></div>
+    </div>
+
+    <!-- ═══ a. NHẬN ĐỊNH ĐÚNG THỜI CƠ ═══ -->
+    <div class="heritage-section wpb_animate_when_almost_visible">
+      <span class="section-eyebrow">a. Nhận Định Đúng Thời Cơ</span>
+      <h2 class="pillars-headline">Bốn điều kiện <em>hội tụ trọn vẹn</em><br>chỉ trong một khoảnh khắc lịch sử</h2>
+      <p class="pillars-intro-text" style="margin-bottom:0;padding-bottom:2.5rem;">
+        Một trong những nhân tố quyết định thắng lợi của Cách mạng Tháng Tám là nghệ thuật chớp thời cơ kịp thời, chính xác của Đảng và Chủ tịch Hồ Chí Minh. Đảng xác định thời cơ tổng khởi nghĩa xuất hiện khi bốn điều kiện sau cùng lúc hội tụ — đây là thời điểm có lợi nhất để giành chính quyền trên phạm vi cả nước.
+      </p>
+      <div class="heritage-grid">
+
+        <div class="heritage-item">
+          <div class="heritage-badge">Quốc tế</div>
+          <div class="heritage-year">15/8</div>
+          <div class="heritage-title">Phát Xít Nhật Đã Đầu Hàng</div>
+          <div class="heritage-text">Ngày 15/8/1945, phát xít Nhật — kẻ thù trực tiếp đang chiếm đóng Đông Dương — tuyên bố đầu hàng Đồng minh vô điều kiện. Chỗ dựa quân sự của chính quyền tay sai lập tức sụp đổ, tạo ra một khoảng trống quyền lực chưa từng có ngay trên đất nước ta.</div>
+        </div>
+
+        <div class="heritage-item">
+          <div class="heritage-badge">Trong nước</div>
+          <div class="heritage-year">8/1945</div>
+          <div class="heritage-title">Chính Quyền Tay Sai Hoang Mang, Tan Rã</div>
+          <div class="heritage-text">Mất chỗ dựa từ quân đội Nhật, chính phủ bù nhìn Trần Trọng Kim rơi vào tê liệt, hoang mang cực độ, không còn khả năng điều hành hay trấn áp phong trào cách mạng đang dâng cao trên khắp cả nước.</div>
+        </div>
+
+        <div class="heritage-item">
+          <div class="heritage-badge">Thời gian vàng</div>
+          <div class="heritage-year">20 ngày</div>
+          <div class="heritage-title">Quân Đồng Minh Chưa Kịp Tiến Vào Đông Dương</div>
+          <div class="heritage-text">Theo Hiệp định Pốt-xđam, quân Đồng minh (Anh ở phía Nam, Tưởng ở phía Bắc) chỉ vào Đông Dương để giải giáp quân Nhật sau đó ít lâu. Khoảng trống thời gian ngắn ngủi này là "cửa sổ cơ hội" quý giá để dân tộc ta tự quyết định vận mệnh của mình trước khi ngoại bang can thiệp.</div>
+        </div>
+
+        <div class="heritage-item">
+          <div class="heritage-badge">Lực lượng</div>
+          <div class="heritage-year">Sẵn sàng</div>
+          <div class="heritage-title">Quần Chúng Nhân Dân Đã Sẵn Sàng Nổi Dậy</div>
+          <div class="heritage-text">Sau cao trào kháng Nhật cứu nước và nạn đói khủng khiếp năm Ất Dậu, ý chí quật khởi của quần chúng đã lên đến đỉnh điểm. Lực lượng chính trị và vũ trang do Mặt trận Việt Minh xây dựng nhiều năm trước đó đã trong tư thế chờ lệnh, chỉ còn chờ hiệu lệnh Tổng khởi nghĩa.</div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ═══ b. QUYẾT ĐỊNH PHÁT ĐỘNG ĐÚNG LÚC ═══ -->
+    <div class="achievements-section">
+      <div class="achievements-inner">
+        <span class="section-eyebrow wpb_animate_when_almost_visible">b. Quyết Định Phát Động Tổng Khởi Nghĩa Đúng Lúc</span>
+        <h2 class="pillars-headline wpb_animate_when_almost_visible">Không quá sớm, <em>không quá muộn</em> — hành động đúng vào giờ khắc quyết định</h2>
+        <p class="pillars-intro-text wpb_animate_when_almost_visible" style="margin-bottom:0;padding-bottom:2.5rem;">
+          Ngay khi Nhật vừa đầu hàng quân Đồng minh, Đảng đã hành động với tốc độ chưa từng có. Đây chính là biểu hiện rõ nét nhất của bản lĩnh chính trị: không khởi nghĩa quá sớm khi lực lượng chưa đủ mạnh, cũng không quá muộn để quân Đồng minh kéo vào tước mất cơ hội giành chính quyền.
+        </p>
+
+        <div class="stats-grid wpb_animate_when_almost_visible">
+          <div class="stat-cell">
+            <div class="stat-val">20</div>
+            <div class="stat-lbl">Ngày thời cơ tồn tại (15/8 – 5/9/1945)</div>
+          </div>
+          <div class="stat-cell">
+            <div class="stat-val">04</div>
+            <div class="stat-lbl">Điều kiện thời cơ hội tụ cùng lúc</div>
+          </div>
+          <div class="stat-cell">
+            <div class="stat-val">15</div>
+            <div class="stat-lbl">Ngày hoàn thành Tổng khởi nghĩa cả nước</div>
+          </div>
+          <div class="stat-cell">
+            <div class="stat-val">64</div>
+            <div class="stat-lbl">Tỉnh, thành giành được chính quyền</div>
+          </div>
+        </div>
+
+        <div class="achievement-list wpb_animate_when_almost_visible">
+
+          <div class="achievement-row">
+            <div class="achievement-date">13–15/8</div>
+            <div>
+              <div class="achievement-title">Hội nghị toàn quốc của Đảng tại Tân Trào</div>
+              <div class="achievement-desc">Ngay khi có tin Nhật sắp đầu hàng, Đảng triệu tập Hội nghị toàn quốc, quyết định phát động Tổng khởi nghĩa trong cả nước, giành chính quyền trước khi quân Đồng minh kịp tiến vào.</div>
+            </div>
+            <div class="achievement-tag">Quyết sách</div>
+          </div>
+
+          <div class="achievement-row">
+            <div class="achievement-date">16–17/8</div>
+            <div>
+              <div class="achievement-title">Quốc dân Đại hội Tân Trào</div>
+              <div class="achievement-desc">Đại biểu ba miền Bắc – Trung – Nam tề tựu dưới mái đình Hồng Thái, thông qua chủ trương Tổng khởi nghĩa và cử ra Ủy ban Dân tộc Giải phóng Việt Nam.</div>
+            </div>
+            <div class="achievement-tag">Đại hội</div>
+          </div>
+
+          <div class="achievement-row">
+            <div class="achievement-date">19/8</div>
+            <div>
+              <div class="achievement-title">Hà Nội giành chính quyền</div>
+              <div class="achievement-desc">Cuộc mít-tinh trước Nhà hát Lớn biến thành cuộc biểu dương lực lượng cách mạng; chính quyền về tay nhân dân gần như không đổ máu, mở đầu cho làn sóng khởi nghĩa toàn quốc.</div>
+            </div>
+            <div class="achievement-tag">Thủ đô</div>
+          </div>
+
+          <div class="achievement-row">
+            <div class="achievement-date">23/8</div>
+            <div>
+              <div class="achievement-title">Huế giành chính quyền</div>
+              <div class="achievement-desc">Kinh đô triều Nguyễn về tay cách mạng, mở đường cho sự kiện vua Bảo Đại thoái vị ít ngày sau đó, chấm dứt chế độ quân chủ tồn tại hàng nghìn năm.</div>
+            </div>
+            <div class="achievement-tag">Cố đô</div>
+          </div>
+
+          <div class="achievement-row">
+            <div class="achievement-date">25/8</div>
+            <div>
+              <div class="achievement-title">Sài Gòn giành chính quyền</div>
+              <div class="achievement-desc">Khởi nghĩa thắng lợi tại Sài Gòn hoàn tất chuỗi sự kiện giành chính quyền tại ba thành phố lớn nhất chỉ trong vòng một tuần lễ.</div>
+            </div>
+            <div class="achievement-tag">Phương Nam</div>
+          </div>
+
+          <div class="achievement-row">
+            <div class="achievement-date">2/9</div>
+            <div>
+              <div class="achievement-title">Tuyên ngôn Độc lập tại Quảng trường Ba Đình</div>
+              <div class="achievement-desc">Chủ tịch Hồ Chí Minh đọc Tuyên ngôn Độc lập, khai sinh nước Việt Nam Dân chủ Cộng hòa — thành quả trọn vẹn của nghệ thuật chớp thời cơ.</div>
+            </div>
+            <div class="achievement-tag">Khai sinh</div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- ═══ c. CHỈ ĐẠO LINH HOẠT, TÁO BẠO ═══ -->
+    <div class="landmarks-section">
+      <span class="section-eyebrow wpb_animate_when_almost_visible">c. Chỉ Đạo Linh Hoạt, Táo Bạo Và Quyết Đoán</span>
+
+      <div class="landmarks-grid wpb_animate_when_almost_visible">
+        <div class="landmark-main">
+          <h2 class="pillars-headline" style="margin-bottom:2rem;">Quyết đoán trong <em>từng giờ, từng phút</em><br>của mùa thu lịch sử</h2>
+
+          <div class="landmark-text">
+            <p>Khi tìm hiểu về Cách mạng Tháng Tám, điều khiến nhóm chúng tôi khâm phục nhất không chỉ là kết quả cuối cùng, mà là <strong>tốc độ và sự dứt khoát</strong> trong từng quyết định của Đảng và Chủ tịch Hồ Chí Minh. Ngay khi lệnh Tổng khởi nghĩa được ban bố từ Tân Trào, các Xứ ủy, Tỉnh ủy trên cả nước đã chủ động vận dụng linh hoạt vào hoàn cảnh cụ thể của địa phương mình, không hề máy móc chờ đợi chỉ thị chi tiết từ Trung ương.</p>
+
+            <div class="landmark-pullquote">
+              <p>"Lúc này thời cơ thuận lợi đã tới, dù hy sinh tới đâu, dù phải đốt cháy cả dãy Trường Sơn cũng phải kiên quyết giành cho được độc lập."</p>
+            </div>
+
+            <p>Đó là lời Chủ tịch Hồ Chí Minh nói với Đại tướng Võ Nguyên Giáp giữa lúc Người còn đang ốm nặng tại lán Nà Nưa, Tân Trào. Câu nói ngắn gọn ấy hàm chứa cả một triết lý hành động: khi thời cơ đã chín muồi, mọi sự chần chừ, do dự đều có thể phải trả giá bằng cả một dân tộc. Chính tinh thần "thần tốc, táo bạo, chắc thắng" ấy đã truyền xuống từng cấp bộ Đảng, từng đơn vị Việt Minh cơ sở.</p>
+
+            <p>Sau lệnh Tổng khởi nghĩa, các địa phương không đợi lệnh đồng loạt mà chủ động nắm bắt thời điểm thuận lợi riêng của mình để hành động — nơi thì mít-tinh biến thành khởi nghĩa, nơi thì lực lượng vũ trang phối hợp quần chúng bao vây công sở. Sự linh hoạt ấy giúp chính quyền cách mạng được thiết lập gần như đồng loạt trên cả nước chỉ trong vòng nửa tháng, với tổn thất thấp hiếm có trong lịch sử các cuộc cách mạng trên thế giới.</p>
+
+            <p>Bài học về nghệ thuật chớp thời cơ của Cách mạng Tháng Tám vẫn còn nguyên giá trị cho đến hôm nay: <strong>dự báo đúng tình hình, chuẩn bị kỹ càng lực lượng, và khi thời cơ đến — hành động không chậm trễ.</strong> Đó cũng là điều mà nhóm <strong>"Đảng Trong Tim"</strong> muốn gửi gắm qua trang viết này, không chỉ để ôn lại một mốc son lịch sử, mà để mỗi người trẻ hôm nay hiểu rằng bản lĩnh và thời cơ luôn song hành — và chỉ những ai chuẩn bị sẵn sàng mới có thể nắm bắt được nó.</p>
+          </div>
+        </div>
+
+        <div class="landmark-sidebar">
+          <div class="sb-card">
+            <div class="sb-card-label">Thông Tin Nhóm</div>
+            <div class="sb-group-name">
+              <span>Nhóm Học Tập</span>
+              Đảng Trong Tim
+            </div>
+            <div class="sb-meta">
+              <div class="sb-meta-row">
+                <span class="sb-meta-key">Môn học</span>
+                <span class="sb-meta-val">Lịch Sử Đảng CSVN</span>
+              </div>
+              <div class="sb-meta-row">
+                <span class="sb-meta-key">Trang này</span>
+                <span class="sb-meta-val">Nghệ Thuật Chớp Thời Cơ</span>
+              </div>
+              <div class="sb-meta-row">
+                <span class="sb-meta-key">Sự kiện</span>
+                <span class="sb-meta-val">Cách Mạng Tháng Tám 1945</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="sb-values">
+            <div class="sb-values-title">Ba Bài Học Nhóm Ghi Nhớ</div>
+            <div class="sb-value-item">
+              <div class="sb-value-num">01</div>
+              <div>
+                <div class="sb-value-name">Dự Báo Chính Xác</div>
+                <div class="sb-value-desc">Thời cơ không tự đến với người thiếu chuẩn bị — phải quan sát, phân tích liên tục để nhận ra đúng thời khắc thuận lợi khi nó xuất hiện.</div>
+              </div>
+            </div>
+            <div class="sb-value-item">
+              <div class="sb-value-num">02</div>
+              <div>
+                <div class="sb-value-name">Quyết Đoán Đúng Lúc</div>
+                <div class="sb-value-desc">Chần chừ khi thời cơ đến cũng nguy hiểm không kém hành động vội vàng khi chưa đủ điều kiện. Bản lĩnh nằm ở việc chọn đúng thời điểm.</div>
+              </div>
+            </div>
+            <div class="sb-value-item">
+              <div class="sb-value-num">03</div>
+              <div>
+                <div class="sb-value-name">Linh Hoạt Trong Hành Động</div>
+                <div class="sb-value-desc">Nguyên tắc chung cần được vận dụng sáng tạo vào từng hoàn cảnh cụ thể — đó là cách Cách mạng Tháng Tám thành công thần tốc trên cả nước.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-rule" style="max-width:1200px;margin:0 auto;padding:0 6vw;">
+      <div class="section-rule-diamond"></div>
+    </div>
+
+    <!-- CLOSING QUOTE -->
+    <div class="closing-quote wpb_animate_when_almost_visible" style="padding-bottom:5rem;">
+      <blockquote>
+        "Lúc này thời cơ thuận lợi đã tới, dù hy sinh tới đâu, dù phải đốt cháy cả dãy <em>Trường Sơn</em> cũng phải kiên quyết giành cho được độc lập."
+      </blockquote>
+      <cite>— Hồ Chí Minh —</cite>
+    </div>
+
+
+  </div><!-- end content-wrap -->
+
+  <section id="pre-footer"></section>
+  <div class="moving-mouse"></div>
+<span id="scroll-top"><a class="scrollup" href="#"><i class="fa fa-chevron-up"></i></a></span>
+
+</div><!-- #wrap -->
+
+<script src="https://trungnguyenlegend.com/wp-content/themes/legend/js/jquery.plugins.js"></script>
+<script src="https://trungnguyenlegend.com/wp-content/themes/legend/js/jquery.masonry.min.js"></script>
+<script src="https://trungnguyenlegend.com/wp-content/themes/legend/js/webnus-custom.js"></script>
+<script src="https://trungnguyenlegend.com/wp-content/themes/legend/js/live-search.js"></script>
+<script src="https://trungnguyenlegend.com/wp-content/themes/legend_child_theme/main_js/main.js?ver=7.0"></script>
+<script src="https://trungnguyenlegend.com/wp-content/themes/legend_child_theme/main_js/addon-min.js?ver=7.0"></script>
+<script src="https://trungnguyenlegend.com/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=8.7.3"></script>
+<script src="https://trungnguyenlegend.com/wp-content/plugins/js_composer/assets/lib/vc/vc_waypoints/vc-waypoints.min.js?ver=8.7.3"></script>
+
+<script>
+jQuery(window).scroll(function(){
+  var s = jQuery(window).scrollTop();
+  if(s > 300) jQuery(".moving-mouse").hide(550);
+});
+
+/* Scroll-reveal fallback */
+(function(){
+  var els = document.querySelectorAll('.wpb_animate_when_almost_visible');
+  if(!els.length) return;
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){
+      if(e.isIntersecting){
+        e.target.classList.add('animated');
+        io.unobserve(e.target);
+      }
+    });
+  },{threshold:0.1});
+  els.forEach(function(el){ io.observe(el); });
+})();
+</script>
+</body>
+</html>
