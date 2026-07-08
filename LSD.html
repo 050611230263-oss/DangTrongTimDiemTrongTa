@@ -772,10 +772,10 @@
             <p class="modal-text" id="m-detail2"></p>
           </div>
           <div>
-            <div class="modal-section-title">Nhân Vật &amp; Địa Điểm</div>
+            <div class="modal-section-title" id="m-people-label">Nhân Vật &amp; Địa Điểm</div>
             <p class="modal-text" id="m-people"></p>
             <div class="modal-world" id="m-world-box" style="margin-top:1rem">
-              <div class="modal-section-title">Bối Cảnh Quốc Tế</div>
+              <div class="modal-section-title" id="m-world-label">Bối Cảnh Quốc Tế</div>
               <ul id="m-world-list"></ul>
             </div>
           </div>
@@ -965,7 +965,8 @@ const VN_EVENT_DATA = {
     sig:'"Thời cơ ngàn năm có một" — sự sụp đổ của thực dân Pháp tạo ra khoảng trống quyền lực mà Đảng và Việt Minh sẵn sàng lấp đầy bằng cuộc tổng khởi nghĩa.'
   },
   e12:{
-    type:'🌐 Bối Cảnh Quốc Tế',
+    type:'Kết Quả & Ý Nghĩa',
+    isResult:true,
     date:'Đầu năm 1945',
     title:'Chiến Tranh Thế Giới Thứ Hai Bước Vào Giai Đoạn Kết Thúc',
     img:'image2/Yalta_Conference_1945_Churchill_Roosevelt_Stalin.jpg',
@@ -977,8 +978,8 @@ const VN_EVENT_DATA = {
     ],
     d1:'Từ 4–11/2/1945, ba lãnh tụ Đồng minh Roosevelt (Mỹ), Churchill (Anh) và Stalin (Liên Xô) họp tại Ianta, bán đảo Crimea, phân chia trật tự thế giới sau chiến tranh. Đối với Đông Dương, Mỹ và Anh tạm thời chấp thuận để Pháp quay trở lại — điều mà Việt Minh phải nhanh chóng vô hiệu hóa bằng cách tuyên bố độc lập trước.',
     d2:'Ngày 8/5/1945, phát xít Đức đầu hàng Đồng minh vô điều kiện, chiến tranh ở châu Âu kết thúc. Tại châu Á, quân Nhật liên tiếp thất bại trên các mặt trận Thái Bình Dương — Philippines, Miến Điện, các đảo then chốt lần lượt thất thủ — báo hiệu sự sụp đổ không thể tránh khỏi của phát xít Nhật.',
-    people:'Franklin D. Roosevelt — Tổng thống Mỹ (qua đời 12/4/1945). Winston Churchill — Thủ tướng Anh. Joseph Stalin — lãnh tụ Liên Xô. Tướng MacArthur chỉ huy phản công Nhật tại Thái Bình Dương.',
-    world:['Hội nghị Ianta định hình trật tự thế giới hai cực Mỹ – Liên Xô','Đức Quốc xã sụp đổ — Hitler tự sát 30/4/1945, Berlin thất thủ','Phong trào giải phóng dân tộc dâng cao khắp châu Á khi phát xít suy yếu'],
+    people:'Hai đồng minh chống lưng cho ách thống trị thực dân tại Đông Dương — phát xít Đức và Nhật — đồng loạt suy sụp chỉ trong vài tháng đầu năm 1945, tước đi chỗ dựa quốc tế cuối cùng của thực dân Pháp.',
+    world:['Trật tự thế giới hai cực Mỹ – Liên Xô manh nha hình thành sau Hội nghị Ianta, mở ra cục diện quốc tế thuận lợi hơn cho các phong trào giải phóng dân tộc','Sự sụp đổ của phát xít Đức và các thất bại liên tiếp của Nhật ở châu Á báo hiệu một khoảng trống quyền lực sắp xuất hiện tại Đông Dương','Đảng ta nhận định chính xác xu thế này, khẩn trương chuẩn bị lực lượng để sẵn sàng chớp lấy thời cơ tổng khởi nghĩa'],
     gallery:[
       {src:'image2/Yalta_Conference_1945_Churchill_Roosevelt_Stalin.jpg',cap:'Hội nghị Ianta — Churchill, Roosevelt, Stalin'},
       {src:'image2/VE_Day_1945.jpg',cap:'Ngày chiến thắng ở châu Âu 8/5/1945'},
@@ -1009,7 +1010,8 @@ const VN_EVENT_DATA = {
     sig:'Nỗi đau dân tộc sâu sắc nhất trở thành sức mạnh cách mạng không gì cản nổi — Việt Minh phá kho thóc Nhật, Pháp cứu đói, giành trọn trái tim và ý chí của nhân dân.'
   },
   e14:{
-    type:'🌐 Bối Cảnh Quốc Tế',
+    type:'Kết Quả & Ý Nghĩa',
+    isResult:true,
     date:'15 tháng 08 năm 1945',
     title:'Nhật Bản Đầu Hàng Đồng Minh Vô Điều Kiện',
     img:'image2/Atomic_bombing_of_Japan.jpg',
@@ -1021,8 +1023,8 @@ const VN_EVENT_DATA = {
     ],
     d1:'Ngày 6/8/1945, Mỹ ném quả bom nguyên tử đầu tiên xuống Hiroshima, xóa sổ gần như toàn bộ thành phố trong tích tắc, giết hơn 70.000 người ngay lập tức. Ngày 9/8, quả bom thứ hai rơi xuống Nagasaki. Liên Xô đồng thời tuyên chiến và tấn công quân Nhật ở Mãn Châu.',
     d2:'Ngày 15/8/1945, Nhật Hoàng Hirohito đọc chiếu thư tuyên bố đầu hàng vô điều kiện. Đây là thời khắc quyết định: khoảng trống quyền lực tại Đông Dương hình thành — quân Nhật chưa kịp rút, quân Đồng minh chưa vào, Việt Minh phải hành động ngay lập tức.',
-    people:'Tổng thống Truman ra lệnh ném bom. Nhật Hoàng Hirohito tuyên bố đầu hàng. Tại Việt Nam: Hồ Chí Minh và Đảng nhận tin, lập tức phát lệnh Tổng khởi nghĩa — thời cơ ngàn năm có một đã đến.',
-    world:['Thế chiến II kết thúc hoàn toàn — trật tự thế giới mới hình thành','Mỹ và Liên Xô nổi lên là hai siêu cường — Chiến tranh Lạnh bắt đầu','Phong trào giải phóng dân tộc bùng nổ toàn cầu: Indonesia, Ấn Độ, Ghana...'],
+    people:'Phát xít Nhật đầu hàng vô điều kiện, kéo theo sự sụp đổ tức khắc của bộ máy cai trị Nhật tại Đông Dương, trong khi quân Đồng minh chưa kịp có mặt — một khoảng trống quyền lực chưa từng có mở ra.',
+    world:['Chiến tranh Thế giới thứ hai chính thức kết thúc, chấm dứt ách thống trị của phát xít trên toàn cầu','Đảng và Việt Minh lập tức chớp lấy "thời cơ ngàn năm có một", phát lệnh Tổng khởi nghĩa trong cả nước ngay khi tin tức lan tới','Sự kiện này trở thành tiền đề trực tiếp, mở đường cho thắng lợi của Cách mạng Tháng Tám chỉ vài ngày sau đó'],
     gallery:[
       {src:'image2/Atomic_bombing_of_Japan.jpg',cap:'Nấm mây nguyên tử trên Nagasaki'},
       {src:'image2/Hiroshima_aftermath.jpg',cap:'Hiroshima sau vụ nổ nguyên tử'},
@@ -1097,7 +1099,8 @@ const VN_EVENT_DATA = {
     sig:'"Nước Việt Nam có quyền hưởng tự do và độc lập, và sự thật đã thành một nước tự do, độc lập." Ngày 2/9/1945 khai sinh nước Việt Nam mới, mở ra kỷ nguyên độc lập dân tộc gắn liền với chủ nghĩa xã hội.'
   },
   w3:{
-    type:'🌐 Bối Cảnh Quốc Tế',
+    type:'Kết Quả & Ý Nghĩa',
+    isResult:true,
     date:'1936 – 1938',
     title:'Mặt Trận Bình Dân Lên Cầm Quyền Tại Pháp',
     img:'image2/Leon_Blum%2C_1936.jpg',
@@ -1109,8 +1112,8 @@ const VN_EVENT_DATA = {
     ],
     d1:'Tháng 5 năm 1936, liên minh cánh tả (Xã hội + Cộng sản + Cấp tiến) thắng cử tại Pháp, thành lập chính phủ Mặt trận Bình dân do Léon Blum làm Thủ tướng. Các cải cách lao động lớn được ban hành: tuần 40 giờ, nghỉ phép có lương, tăng lương.',
     d2:'Tại Đông Dương, chính phủ Blum ân xá nhiều tù chính trị, nới lỏng kiểm duyệt báo chí. Đảng Cộng sản Việt Nam tận dụng triệt để khoảng không gian chính trị này để hoạt động công khai, phát triển lực lượng và tuyên truyền cách mạng.',
-    people:'Léon Blum — Thủ tướng Pháp, lãnh tụ Đảng Xã hội. Maurice Thorez — lãnh tụ Đảng Cộng sản Pháp, ủng hộ phong trào thuộc địa. Tại Việt Nam: Nguyễn Văn Cừ, Trường Chinh lãnh đạo phong trào công khai.',
-    world:['Nội chiến Tây Ban Nha bùng nổ — thách thức lớn với Mặt trận Bình dân','Đức tái vũ trang, chiếm Rhineland — áp lực quốc phòng khiến Blum không thể tập trung cải cách','Phong trào công nhân toàn châu Âu lên cao — đình công lớn ở Pháp, Bỉ, Hà Lan'],
+    people:'Đảng Cộng sản Việt Nam tận dụng triệt để khoảng không gian chính trị hợp pháp hiếm có này để công khai xây dựng tổ chức, đào tạo cán bộ và mở rộng ảnh hưởng trong quần chúng.',
+    world:['Phong trào Đông Dương Đại hội và hàng chục tờ báo cách mạng công khai ra đời, thu hút hàng triệu người tham gia ký kiến nghị đòi dân sinh, dân chủ','Phong trào truyền bá Quốc ngữ xóa mù chữ cho đông đảo quần chúng, chuẩn bị lực lượng chính trị và văn hóa cho giai đoạn sau','Đảng tích lũy kinh nghiệm quý báu về vận động quần chúng công khai — nền tảng vững chắc cho các giai đoạn đấu tranh quyết liệt tiếp theo'],
     gallery:[
       {src:'image2/Leon_Blum%2C_1936.jpg',cap:'Léon Blum — Thủ tướng Mặt trận Bình dân'},
       {src:'image2/Popular_Front_France_1936.jpg',cap:'Người dân Paris ăn mừng thắng lợi 1936'},
@@ -1119,7 +1122,8 @@ const VN_EVENT_DATA = {
     sig:'Khoảng không gian chính trị ngắn ngủi nhưng quý giá — Đảng ta tận dụng tối đa để xây dựng lực lượng, chuẩn bị cho giai đoạn đấu tranh quyết định.'
   },
   w4:{
-    type:'🌐 Bối Cảnh Quốc Tế',
+    type:'Kết Quả & Ý Nghĩa',
+    isResult:true,
     date:'01 tháng 09 năm 1939',
     title:'Chiến Tranh Thế Giới II Bùng Nổ',
     img:'image2/Bundesarchiv_Bild_183-S55480%2C_Polen%2C_Panzer_im_Vormarsch.jpg',
@@ -1131,8 +1135,8 @@ const VN_EVENT_DATA = {
     ],
     d1:'Rạng sáng 1/9/1939, 1,5 triệu quân Đức ào ạt xâm lược Ba Lan từ ba hướng. Hai ngày sau, Pháp và Anh tuyên chiến với Đức — Chiến tranh Thế giới lần II chính thức bùng nổ. Đây là cuộc chiến tàn khốc nhất lịch sử nhân loại.',
     d2:'Tháng 6/1940, Pháp bại trận trước Đức, ký hiệp định đình chiến nhục nhã. Chính phủ Vichy bù nhìn ra đời, nhượng Đông Dương cho Nhật. Đông Dương bị kéo vào vòng xoáy chiến tranh — "một cổ hai tròng" Nhật-Pháp.',
-    people:'Adolf Hitler — kẻ gây chiến. Winston Churchill — Thủ tướng Anh kiên cường. Franklin Roosevelt — Tổng thống Mỹ. Tại Đông Dương: Toàn quyền Catroux sau đó Decoux cầm quyền dưới áp lực kép Pháp-Nhật.',
-    world:['Phong trào phát xít toàn châu Âu: Đức, Ý, Tây Ban Nha, Hungary, Romania','Liên Xô ký Hiệp ước Ribbentrop-Molotov 8/1939 — tạm thời hòa hoãn với Đức','Nhật Bản nhân cơ hội mở rộng chiếm đóng châu Á — Đông Dương, Mã Lai, Philippines'],
+    people:'Pháp nhanh chóng bại trận và suy yếu nghiêm trọng ngay tại chính quốc, kéo theo sự lung lay của bộ máy cai trị thực dân tại Đông Dương, mở đường cho Nhật tràn vào.',
+    world:['Đông Dương bị đẩy vào cảnh "một cổ hai tròng" Nhật-Pháp, đời sống nhân dân càng thêm cùng cực, làm bùng lên tinh thần phản kháng','Cục diện quốc tế xáo trộn dữ dội tạo tiền đề khách quan để Đảng ta chuyển hướng chỉ đạo chiến lược','Nhiệm vụ giải phóng dân tộc được đặt lên hàng đầu, mở đầu chuỗi sự kiện dẫn tới các cuộc khởi nghĩa vũ trang đầu tiên'],
     gallery:[
       {src:'image2/Bundesarchiv_Bild_183-S55480%2C_Polen%2C_Panzer_im_Vormarsch.jpg',cap:'Xe tăng Đức xâm lược Ba Lan 1/9/1939'},
       {src:'image2/France_surrender_1940.jpg',cap:'Pháp ký đầu hàng Đức 6/1940'},
@@ -1154,6 +1158,17 @@ function openModal(id){
   document.getElementById('m-detail2').textContent = d.d2;
   document.getElementById('m-people').textContent = d.people;
   document.getElementById('m-sig').textContent = d.sig;
+
+  const peopleLabelEl = document.getElementById('m-people-label');
+  const worldLabelEl = document.getElementById('m-world-label');
+  if(d.isResult){
+    peopleLabelEl.textContent = 'Kết Quả & Ý Nghĩa';
+    worldLabelEl.style.display = 'none';
+  } else {
+    peopleLabelEl.textContent = 'Nhân Vật & Địa Điểm';
+    worldLabelEl.textContent = 'Bối Cảnh Quốc Tế';
+    worldLabelEl.style.display = '';
+  }
 
   const factsEl = document.getElementById('m-facts');
   factsEl.innerHTML = d.facts.map(f=>`<div class="modal-fact"><div class="modal-fact-val">${f.val}</div><div class="modal-fact-lbl">${f.lbl}</div></div>`).join('');
